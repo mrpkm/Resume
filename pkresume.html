@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c008bbf441.js" crossorigin="anonymous"></script>
+    <title>Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: blueviolet;
+        }
+        .cv {
+            width: 50%;
+            height: 590px;
+            margin: 5px auto;
+            border: 2px solid;
+            background: linear-gradient(#fff,#19C2D4);
+
+        }
+
+        .top {
+            width: 100%;
+            height: 70px;
+            background-color: aqua;
+            margin:-5px 0 0 0  ;
+        }
+        .top .image {
+            display: flex;
+            position: absolute;
+            top: 40px;
+            left: 365px;
+        }
+         .top img{
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+        }
+        .top .head {
+            margin-top: auto;
+            padding: 30px;
+            margin: 5px;
+        }
+        
+        .top h3 {
+            text-align: center;
+            word-spacing: 1.5px;
+            font-size: 1.5rem;
+        }
+        .top p {
+            text-align: center;
+            word-spacing: 1px;
+            font-size: 1rem;
+        }
+
+        .left {
+            /* position: absolute; */
+            float: left;
+            left: 0;
+            width: 45%;
+            height: 519px;
+        }
+        .contect{
+            margin: 25px 5px 0 10px;
+        }
+        .gmail {
+            color: darkblue;
+        }
+        i{
+            padding:5px 20px 5px 10px;
+            color: #D144FC;
+        }
+        hr {
+            width: 90px;
+            color: #D144FC;
+            border-top: dotted;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            padding-bottom: 10px;
+        }
+        .career {
+            margin: 15px 5px 0 10px;
+        }
+        .career li{
+            text-transform: capitalize;
+        }
+        .technical{
+            margin: 15px 5px 0 10px;  
+        }
+        .button{
+            color: white;
+            background: rgb(13, 74, 242);
+            padding: 3px;
+            margin: 3px;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+        }
+        .languages {
+            margin: 15px 5px 0 10px; 
+        }
+        .right {
+            float: right;
+            right: 0;
+            width: 52%;
+            height: 519px;
+
+        }
+        h3 {
+            font-weight: 400;
+        }
+        .education{
+            margin: 15px 5px 0 10px;  
+        }
+        .profissional{
+            margin: 15px 5px 0 10px;  
+        }
+        .project{
+            margin: 15px 5px 0 10px;  
+        }
+        .project li {
+            font-size: 1.5rem;
+            text-transform: capitalize;
+
+        }
+        .project span{
+            font-weight: 500;
+            text-transform: lowercase;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.4rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="cv">
+        <div class="top">
+            <img class="image" src="cv/pawan.jpeg" alt="">
+            <div class="head">
+            <h3>Mr. Pawan Kumar Mandal</h3>
+        </div>
+        </div>
+        <!-- -----------------------left------------------------ -->
+        <div class="left">
+            <div class="contect">
+                <h2>CONTECT DETAILS</h2>
+                <hr>
+                <div class="contect-form">
+                    <h3 class="gmail" ><i class="fa-solid fa-envelope"></i> krpawan57146@gmail.com </h3>
+                    <h3><i class="fa-solid fa-phone"></i>+91 8084697265</h3>
+                    <h3><i class="fa-solid fa-cake-candles"></i>13 March 2001</h3>
+                    <h3><i class="fa-solid fa-location-dot"></i> Dumka Jharkhand</h3>
+                </div>
+            </div>
+            <div class="career">
+                <h2>CAREER OBJECTIVE</h2>
+                <hr>
+                <li>to develop my programming skill. </li>
+                <li>quick liarner.</li>
+                <li>Quick decision making.</li>
+                <li>loyal toward work and duties.</li>
+            </div>
+            <div class="technical">
+                <h2>TECHNICAL SKILL</h2>
+                <hr>
+                <div class="btn">
+                    <button class="button">HTML</button>
+                    <button class="button">CSS</button>
+                    <button class="button">JAVA SCRIPT</button>
+                    <button class="button">REACT JS</button>
+                    <button class="button">BOOTSTRAP</button>
+                    <button class="button">WORDPRESS</button>
+                </div>
+            </div>
+            <div class="languages">
+                <h2>LANGUAGE KNOWN</h2>
+                <hr>
+                <li>English</li>
+                <li>Hindi</li>
+            </div>
+        </div>
+        <div class="right">
+            <div class="education">
+                <h2>EDUCATION</h2>
+                <hr>
+                <h3>Intermediate 2018-2020 <br>  65.80% </h3>
+                <h3>Matriculation, 2017-2018 <br> 65.60%</h3>
+            </div>
+            <div class="profissional">
+                <h2>PROFESSIONAL TRANING</h2>
+                <hr>
+                <a href="cv/cetificate.pk.png">The Compleate 2022 Web Development Bootcamp <br> <span>Dr. Angela Yu</span></a>
+
+            </div>
+            <div class="project">
+                <h2>PROJECTS</h2>
+                <hr>
+                <li>Food Ordering Website </li>
+                <li>E-Commerce website</li> 
+                <li>School website, <span>etc.</span></li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
